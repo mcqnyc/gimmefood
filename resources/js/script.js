@@ -81,19 +81,19 @@ $(document).ready(function(){
     
     
     /* Map plugin */
-    var map = new GMaps({
-      div: '.map',
-      lat: 38.7139092,
-      lng: -9.00356702,
-        zoom: 11
-    });
+    // var map = new GMaps({
+    //   div: '.map',
+    //   lat: 38.7139092,
+    //   lng: -9.00356702,
+    //     zoom: 11
+    // });
     
-    map.addMarker({
-      lat: 38.7139092,
-      lng: -9.2056702,
-      title: 'Lisbon',
-      infoWindow: {
-          content: '<p>Our Lisbon HQ</p>'
-        }
-    });
+    // map.addMarker({
+    //   lat: 38.7139092,
+    //   lng: -9.2056702,
+    //   title: 'Lisbon',
+    //   infoWindow: {
+    //       content: '<p>Our Lisbon HQ</p>'
+    //     }
+    // });
 });
